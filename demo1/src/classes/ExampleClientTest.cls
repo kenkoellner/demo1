@@ -1,9 +1,9 @@
 @isTest public class ExampleClientTest {
  
- 	private static String TEST_CUSTOMER_NUMBER = 'cust123';
- 	private static String TEST_PART_NUMBER = 'part456';
- 	private static String TEST_ORDER_NUMBER = 'order456';
-	private static Date TEST_SHIP_DATE = System.today().addDays(30);
+ 	private static final String TEST_CUSTOMER_NUMBER = 'cust123';
+ 	private static final String TEST_PART_NUMBER = 'part456';
+ 	private static final String TEST_ORDER_NUMBER = 'order456';
+	private static final Date TEST_SHIP_DATE = System.today().addDays(30);
  	
     @testSetup static void setup() {
  	 		Account myAccount = new Account (name = 'Test Account');
