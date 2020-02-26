@@ -26,13 +26,13 @@
             return requestList;
         }
 
-		// Call this affter test to get the requests one at a time.
-		global Object getRequest() {
-			if (requestList.isEmpty()) {
-				return null;
-			}
-			return requestList.remove(0);
-		}
+	// Call this affter test to get the requests one at a time.
+	global Object getRequest() {
+	    if (requestList.isEmpty()) {
+	        return null;
+	    }
+	    return requestList.remove(0);
+	}
 		
         //  Implementation of mock callout requires this method.  
         //    Store the request so it can be checked later.
